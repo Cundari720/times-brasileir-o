@@ -3,24 +3,3 @@ body {
     background-color: #f4f4f4;
     padding: 20px;
 }
-
-.tabela-brasileirao {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-}
-
-.tabela-brasileirao th {
-    background-color: #1b5e20;
-    color: white;
-    padding: 10px;
-}
-
-.tabela-brasileirao td {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-
-.tabela-brasileirao tr:hover {
-    background-color: #f1f1f1;
-}
