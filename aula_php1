@@ -1,0 +1,29 @@
+	CREATE DATABASE aula_php1;
+	USE aula_php1;
+
+	CREATE TABLE times1 (
+	id		INT primary KEY auto_increment,
+	nome		VARCHAR(100),
+	quantidade		INT
+	);
+
+	INSERT INTO times1 (nome, quantidade) VALUES
+	('Palmeiras', 12),
+	('Santos', 8),
+	('Flamengo', 8),
+	('Corinthians', 7),
+	('São Paulo', 6),
+	('Cruzeiro', 4),
+	('Vasco da Gama', 4),
+	('Fluminense', 4),
+	('Internacional', 3),
+	('Atlético Mineiro', 3),
+	('Botafogo', 3),
+	('Grêmio', 2),
+	('Bahia', 2),
+	('Athletico Paranaense', 1),
+	('Coritiba', 1),
+	('Guarani', 1),
+	('Sport', 1);
+
+	select * from times1
