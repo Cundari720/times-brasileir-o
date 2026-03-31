@@ -2,7 +2,7 @@
     include 'conexao.php';
 
     $sql = "SELECT *
-FROM times 
+FROM times1
 ORDER BY id ASC;";
     $consulta = $conexao->query($sql);
 
